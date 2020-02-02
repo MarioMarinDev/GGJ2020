@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "30e2c14d-5566-4f72-bc2a-ff839cf790f4",
+            "Value": {
+                "id": "903f76cc-b6dc-456c-acc0-a5d6e676d65d",
+                "resourcePath": "scripts\\sound_effect\\sound_effect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30e517d7-0586-4489-8195-5a742b27bbfb",
             "Value": {
                 "id": "7bdd7560-b24a-40a2-8897-b5c3c99e5b34",
@@ -1015,11 +1023,27 @@
             }
         },
         {
+            "Key": "f01684fb-ab4c-4a13-889a-6e16702bd6ed",
+            "Value": {
+                "id": "311848e1-6b53-422c-944a-64b5d5a6c453",
+                "resourcePath": "sounds\\snd_hover_in\\snd_hover_in.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f16ab1c3-4b2e-476c-a8f3-2794e05ce043",
             "Value": {
                 "id": "225d5400-2ff0-4379-bc2a-c754627dd9e5",
                 "resourcePath": "scripts\\scr_npc_action_do_nothing\\scr_npc_action_do_nothing.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f21b5dc0-5a2a-4bdc-be92-e93109fc03e5",
+            "Value": {
+                "id": "d087984a-7b38-4cbf-8645-853edd7435a1",
+                "resourcePath": "sounds\\snd_hover_out\\snd_hover_out.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1138,7 +1162,8 @@
         "05c85f20-92ac-43af-9c2a-3d07233903db",
         "1745bd96-5672-4ff2-99fc-ecf04ebdfee5",
         "9ee95ded-1365-422c-86c5-096cd3078e4b",
-        "43084996-54bb-4e3f-8fcd-285a48abd73f"
+        "43084996-54bb-4e3f-8fcd-285a48abd73f",
+        "30e2c14d-5566-4f72-bc2a-ff839cf790f4"
     ],
     "tutorial": ""
 }
