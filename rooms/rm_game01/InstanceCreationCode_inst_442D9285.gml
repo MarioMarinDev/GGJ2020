@@ -1,0 +1,2 @@
+
+facing = directions.down;

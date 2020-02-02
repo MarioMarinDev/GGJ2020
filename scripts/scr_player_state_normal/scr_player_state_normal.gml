@@ -4,3 +4,4 @@
 scr_player_action_move();
 
 // Player can interact
+scr_player_action_interact();

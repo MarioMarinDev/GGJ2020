@@ -7,6 +7,18 @@ enum game_states {
 	postready
 }
 
+enum npc_types {
+	employee,
+	janitor
+}
+
+enum directions {
+	up,
+	down,
+	left,
+	right
+}
+
 enum transition_states {
 	fade_in,
 	transport,

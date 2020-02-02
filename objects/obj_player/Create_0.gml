@@ -10,6 +10,11 @@ key_right = ord("D");
 key_up = ord("W");
 key_down = ord("S");
 
+// Interaction variables
+interactable = noone;
+key_interact = ord("E");
+interact_radius = bbox_right - bbox_left + 2;
+
 // Sprite variables
 sprite_font = spr_test_player_font;
 sprite_back = spr_test_player_back;

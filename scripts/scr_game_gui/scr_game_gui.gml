@@ -18,7 +18,7 @@ draw_text(xx, yy, date);
 // Draw money
 draw_set_color(c_green);
 var money = "$";
-money += string(500);
+money += string(global.game_money);
 xx += string_width(date) + section_space;
 draw_text(xx, yy, money);
 
