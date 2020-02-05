@@ -8,7 +8,7 @@ switch(type) {
 			new_activity = scr_npc_action_move_random;
 		}	else {
 			if(scr_npc_in_workplace()) {
-				if(random_chance(5)) {
+				if(random_chance(3)) {
 					new_activity = scr_npc_action_ask_for_help;
 				}
 			} else {

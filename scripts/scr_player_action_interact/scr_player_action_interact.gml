@@ -4,8 +4,8 @@
 if(instance_exists(interactable) && keyboard_check_pressed(key_interact)) {
 	switch(interactable.object_index) {
 		case obj_npc:
-			interactable.state = scr_npc_state_thinking;
-			interactable.alarm[1] = NULL;
+			scr_npc_show_computer(interactable);
+			state = scr_player_state_busy;
 		break;
 	}
 }

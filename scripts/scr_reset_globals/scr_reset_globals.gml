@@ -2,7 +2,7 @@
 
 // Global variables
 global.game_state = game_states.unready;
-global.game_score = 0;
+global.game_playing = false;
 global.game_hours = 9;
 global.game_minutes = 0;
 

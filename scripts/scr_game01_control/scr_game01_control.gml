@@ -13,7 +13,7 @@ switch(global.game_state) {
 			var npc = instance_create_depth(xc, yc, spawn.depth, obj_npc);
 			npc.workplace = spawn;
 		}
-	
+		global.game_playing = true;
 		global.game_state = game_states.ready;
 	break;
 	
@@ -23,7 +23,11 @@ switch(global.game_state) {
 		}
 		
 		if(global.game_hours >= 19) {
-			rm_goto(room);	
+			if(global.game_money >= 0) {
+				rm_goto(rm_win);
+			} else {
+				rm_goto(rm_lose);
+			}
 		}
 	break;
 }

@@ -8,9 +8,12 @@ spd = 2;
 workplace = noone;
 
 // Activities variables
-desperate_time = time_minutes(1.5);
+desperate_time = time_seconds(45);
 idle_min = time_seconds(1);
 idle_max = time_seconds(3);
+
+// Computer variables
+computer = noone;
 
 // Path variables
 grid = NULL;

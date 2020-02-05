@@ -1,11 +1,14 @@
 /// scr_game_gui
 
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 draw_set_color(c_white);
 draw_set_font(fnt_gui);
 
 var gui_y_max = string_height(" ") + 10;
 var section_space = string_width(" ") * 5;
-var xx, yy = 5;
+var xx = 5;
+var yy = 5;
 
 draw_rectangle_dim(0, 0, gui_x_max, gui_y_max, c_black, 0.8);
 

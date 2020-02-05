@@ -12,6 +12,12 @@ enum npc_types {
 	janitor
 }
 
+enum icon_types {
+	normal,
+	virus,
+	trash
+}
+
 enum directions {
 	up,
 	down,
